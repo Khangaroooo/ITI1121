@@ -1,0 +1,7 @@
+The answer is the 5th option"
+Produces a run-time error:
+
+Exception in thread "main" java.lang.NullPointerException
+at Quiz.main(Quiz.java:4)"
+
+Because the variable s is null and so Java crashes when you try to find the length of null (thus NullPointerException). 

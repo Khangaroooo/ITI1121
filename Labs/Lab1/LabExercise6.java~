@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class LabExercice6{
+	public static void main(String[] args){
+		int[] grades = new int[10];
+		for (int i = 0; i < 10; i++){
+			System.out.print("Please Enter grade number "+(i+1)+": ");
+			Scanner sc = new Scanner(System.in);
+			grades[i] = sc.nextInt();
+		}
+	}
+	
+	public static void calculateAverage(double[] notes){
+				double result;
+		result = 0;
+		for(int i = 0; i < notes.length; i++){
+			result = result + notes[i];
+			
+		}
+		result = (result/notes.length);
+		return result;
+	}
+	
+	public static void calculateMedian(double[] notes){
+		//your code here
+	}
+	
+	public static void calculateNumberFailed(double[] notes){
+		//your code here
+	}
+	
+	public static void calculateNumberPassed(double[] notes){
+		//your code here
+	}
+
+}
